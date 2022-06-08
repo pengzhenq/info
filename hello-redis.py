@@ -6,3 +6,5 @@ redis_cli = Redis(host="192.168.139.131",port=6379,db=0)
 # res = redis_cli.get('qqzzq')
 # print(res)
 redis_cli.delete('qqzzq')
+
+print('helloworld')
